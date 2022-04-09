@@ -1,0 +1,26 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 55px;
+  height: 55px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.box-input-header > input {
+  height: 30px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(104, 104, 104, 0.384);
+}
+.box-input-header > button {
+  margin-right: 5px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}

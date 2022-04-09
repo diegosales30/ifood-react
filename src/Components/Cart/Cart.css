@@ -1,0 +1,29 @@
+.box-text-cart {
+  width: 300px;
+
+  margin: auto;
+  text-align: center;
+  height: 35px;
+  border-radius: 5px 5px 0px 0px;
+
+  background-color: rgba(211, 26, 26, 0.952);
+}
+.container-cart-principal {
+  margin-top: 15px;
+}
+
+.container-item-cart {
+  width: 300px;
+  margin: auto;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.container-price-total {
+  display: flex;
+  justify-content: space-around;
+
+  width: 300px;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.753);
+}

@@ -1,0 +1,42 @@
+.container-iten-cart {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 12px 1px rgba(37, 37, 37, 0.171);
+  margin: 5px;
+
+  border-radius: 3px;
+}
+.container-iten-cart:hover {
+  box-shadow: 1px 1px 12px 1px rgba(22, 22, 22, 0.295);
+  cursor: pointer;
+}
+.container-iten-list-cart {
+  display: flex;
+}
+.img-vitrine-cart {
+  width: 55px;
+  height: 55px;
+}
+
+.box-name-category-cart {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-btn-price-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+.box-btn-price-cart > button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.box-btn-price-cart > button:hover {
+  color: rgb(155, 30, 30);
+}

@@ -1,0 +1,42 @@
+.container-iten {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 12px 1px rgba(37, 37, 37, 0.171);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.container-iten:hover {
+  box-shadow: 1px 1px 12px 1px rgba(22, 22, 22, 0.295);
+  cursor: pointer;
+}
+.container-iten-list {
+  display: flex;
+}
+.img-vitrine {
+  width: 55px;
+  height: 55px;
+}
+
+.box-name-category {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-btn-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+.box-btn-price > button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.box-btn-price > button:hover {
+  color: green;
+  cursor: pointer;
+}
