@@ -1,17 +1,17 @@
 import ItemCart from "../ItemCart/ItemCart";
 import TotalPrice from "../TotalPrice/TotalPrice";
 import "./Cart.css";
-const Cart = () => {
+const Cart = ({ dataCart, handleDelete }) => {
   return (
     <div className="container-cart-principal">
       <div className="box-text-cart">
         <p>Carrinho</p>
       </div>
       <ul className="container-item-cart">
-        <ItemCart />
+        <ItemCart dataCart={dataCart} handleDelete={handleDelete} />
       </ul>
       <div className="container-price-total">
-        <TotalPrice />
+        <TotalPrice dataCart={dataCart} />
       </div>
     </div>
   );

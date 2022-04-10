@@ -1,10 +1,14 @@
 import "./Products.css";
 import ProductList from "../ProductList/ProductList";
-const Products = () => {
+const Products = ({ data, handleClickBuy, filtered }) => {
   return (
     <main className="container-main">
       <ul>
-        <ProductList />
+        <ProductList
+          data={data}
+          handleClickBuy={handleClickBuy}
+          filtered={filtered}
+        />
       </ul>
     </main>
   );
